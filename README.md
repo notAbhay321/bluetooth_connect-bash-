@@ -44,6 +44,12 @@ and then press Enter.
     ```
     source ~/.bashrc
     ```
+    
+    ```
+    chmod +x buds.sh
+    ```
+   <details>  <summary>chmod does this</summary>This command grants execute permissions to the owner, group, and others.
+
 After that, you can simply type buds in your terminal to execute the buds.sh script from anywhere in your system.
 
 
