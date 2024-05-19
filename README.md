@@ -42,9 +42,10 @@ and then press Enter.
     Now, either close and reopen your terminal or run the following command to apply the changes to your current session:
     
     ```
-    source ~/.bashrc
+    source ./buds.sh
     ```
-    
+    ./ will run the script
+   if it doesnt run, Give the file a executable permission by using chmod +x buds.sh or chmods 777 buds.sh
     ```
     chmod +x buds.sh
     ```
@@ -52,4 +53,9 @@ and then press Enter.
 
 After that, you can simply type buds in your terminal to execute the buds.sh script from anywhere in your system.
 
-
+If you wnat to change the mac address of your bt device then follow these steps 
+```
+nano buds.sh
+```
+in the code, replace the dummy mac addres {buds_mac=""}
+and you are good to go!!!
