@@ -188,4 +188,3 @@ main() {
 
 # Run the main function with command-line arguments
 main "$@"
-
