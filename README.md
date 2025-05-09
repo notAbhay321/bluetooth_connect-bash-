@@ -21,7 +21,7 @@ A Bash script to connect/disconnect and perform various operations with your Blu
 
 1. Clone the repository: ctrl +alt + T 
    ```bash
-   git clone <repository_URL>
+   git clone https://github.com/notAbhay321/bluetooth_connect-bash-
 2.a. execute these comands
    ```bash
    nano ~/.bashrc
